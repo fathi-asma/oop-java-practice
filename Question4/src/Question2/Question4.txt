@@ -1,0 +1,66 @@
+Nouns:
+1.online store.- outside scope
+2.customer.
+3.browse.- Attributes of other entities
+4.purchase.- Attributes of other entities
+5.products.- Attributes of other entities
+6.seller 
+7.inventory.- Attributes of other entities
+8.processes.- Attributes of other entities
+9.order.-Attributes of other entities
+10.items.
+11.shopping cart.- Attributes of other entities
+12.payment.
+13.payment methods - Attributes of other entities
+14.product code - Attributes of other entities
+15.price - Attributes of other entities
+16.cost.- Attributes of other entities
+17.system - Events or operations
+18.order status - Attributes of other entities
+19.confirmation emails - Attributes of other entities
+20.successful purchases. - Attributes of other entities
+
+
+Class: customer
+Responsibilities:
+- browse and purchase products.
+- add items to their shopping cart
+- checkout using different payment methods
+Collaborators:
+- seller
+- item
+- Payment
+
+Class: seller
+Responsibilities:
+- product inventory and processes orders.
+Collaborators:
+- customer
+- item
+- Payment
+
+
+Class: items
+Responsibilities:
+- customer can browse products 
+Collaborators:
+- customer
+- item
+- Payment
+
+Class: payment.
+Responsibilities:
+- customer can choose paymet methods
+- can purches products
+
+Collaborators:
+- customer
+- item
+
+
+
+
+
+
+
+

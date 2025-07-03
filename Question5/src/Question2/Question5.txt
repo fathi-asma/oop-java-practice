@@ -1,0 +1,48 @@
+Nouns
+1.school - Events or operations
+2.student.
+3.enroll.- Attributes of other entities
+4.drop.- Attributes of other entities
+5.courses.
+6.teacher.
+7.creates assignments.- Attributes of other entities
+8.grades - Attributes of other entities
+9.submission - Attributes of other entities
+10.course code - Attributes of other entities
+11.credit value - Attributes of other entities
+12.academic weight.- Attributes of other entities
+13.registrar - Attributes of other entities
+14.graduating students. - Attributes of other entities
+
+Class: Student 
+Responsibilities:
+- enroll and drop courses.
+- view their grades
+- can download course materials.
+- determine academic weight
+
+Collaborators:
+- teacher
+- courses
+
+Class: Courses 
+Responsibilities:
+- add courses
+- uplode course materials.
+
+Collaborators:
+- teacher
+- Students
+
+Class: teacher
+Responsibilities:
+- update marks
+- uplode course materials.
+- update course details
+
+Collaborators:
+- courses
+- Students
+
+
+

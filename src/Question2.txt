@@ -1,0 +1,60 @@
+Available Nouns 
+ 1.customer 
+ 2.Bank - outside the scope
+ 3.teller - attributes of other entities
+ 4.transaction.
+ 5.recodes.- redudate
+ 6.deposit - redundate
+ 7.withdraw - redundate 
+ 8.account number - redundate nouns
+ 9.balance - redudate
+ 10.system.- outside the scope
+ 11.active accounts
+ 12 non active account 
+
+class  - customer
+Resposibilities: 
+-add customer details
+-update customer details if customer do updates for their account
+- return balance 
+
+collabrators :
+- active accounts
+-non active accounts
+
+
+class - active accounts
+Resposibilities: 
+-add  active customer details
+-update active customer details if customer do updates for their account
+- return active account if customer requird balance 
+
+collabrators :
+-customer 
+
+
+
+class- non active accounts
+Resposibilities: 
+-recodes of non active account details
+
+collabrators :
+-customer 
+
+
+
+class - transaction 
+Resposibilities: 
+-transaction details (deposit,withrawal)
+-return current balance of account
+
+collabrators :
+-customer
+-active account.
+
+
+
+
+
+
+

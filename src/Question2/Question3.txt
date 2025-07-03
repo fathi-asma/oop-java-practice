@@ -1,0 +1,49 @@
+Nouns: 
+1.Hospital - outside of the scope
+2. patient
+3.appointments 
+3.schedule appointments -Attributes of other entities.
+4.cancel appointments - Attributes of other entities.
+5.Doctor
+6.Medical recodes - Attributes of other entities.
+7.patient ID - Redundate nouns
+8.medical history - Attributes of other entities.
+9.previous diagnoses- Attributes of other entities.
+10.nurse 
+
+Class: Patient
+Responsibilities:
+- Schedule appointments
+- Update personal information
+- View medical records
+Collaborators:
+- Doctor
+- Appointment
+
+class : appointments 
+Responsibilities:
+- schedule appointments
+-cancel appointments
+Collaborators:
+- Doctor
+- Appointment
+- patient
+
+class : Doctor
+Responsibilities:
+- check appointments
+-cancel appointments
+-check patiesnts recodes
+Collaborators:
+- Doctor
+- Appointment
+- patient
+
+class: nurse
+Responsibilities:
+- check appointments
+- cancel appointments
+- check patiesnts recodes
+Collaborators:
+- Doctor
+- patient
